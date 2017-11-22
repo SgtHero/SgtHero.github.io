@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+}
+
+#footerSticky {
+  top: 95%;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+}
+
+#fixedService {
+}
+
+#contactPhone {
+  max-width: 99%
+}
+
+#hero {
+  background-color: coral;
+}
+
+#aboutme {
+  background-color: coral;
+}
+
+#contactme {
+  background-color: green;
+}

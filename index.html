@@ -8,68 +8,108 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="/css/jquery.fullPage.css">
     <!-- My CSS -->
     <link rel="stylesheet" href="/css/jumbotron.css">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
 
-    <main role="main">
+<main role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
+  <div id="fullpage">
+    <div class="section" id="hero">
+      <div class="mw-100">
         <div class="container">
-          <h1>Better
-            <a href="" class="typewrite" data-period="2000" data-type='[ "You", "We", "Business", "Processes", "Sales", "Products" ]'>
-              <span class="wrap"></span>
-            </a>
-          </h1>
-          <h1 class="display-3">Mein Angebot</h1>
-          <ol>
-            <li>Prozesse</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ol>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+          <div class="row">
+            <div class="col-md-8">
+              <h1>Better
+                <a href="" class="typewrite" data-period="2000" data-type='[ "You", "We", "Business", "Processes", "Sales", "Products" ]'>
+                  <span class="wrap"></span>
+                </a>
+              </h1>
+              <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+            </div>
+              <div class="col-md-4">
+                <h1>Mein Angebot</h1>
+                <ol>
+                  <li>Prozesse</li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ol>
+              </div>
+          </div>
         </div>
       </div>
-
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Über mich</h1>
+    </div>
+    <div class="section" id="aboutme">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Über mich</h1>
+            <p>Ich lerne also bin ich. Jeden Tag helfe ich hauptberuflich Unternehmen in verschiedensten Situationen der Digitalisierung Herr zu werden. Momentan bin ich im Team von [_Gemeinsam digital](https://gemeinsam-digital.de) bei der [Technischen Hochschule Brandenburg](https://www.th-brandenburg.de/startseite/) angestellt und bin dort für [diverse Projekte](https://gemeinsam-digital.de/projekte/) zuständig. Diese reichen von Start-Ups in der Eventlocation, über Medizinproduktehersteller und IT-Dienstleister bis hin zu großen  Landwirtschaftlern und Produktionsunternehmen. Ich möchte Sie dazu befähigen die Chancen der digitalen Revolution zu erkennen und optimal zu nutzen. Dazu konzentriere ich mich auf den Menschen und seine Bedürfnisse. Verschiedenste Methoden helfen dabei die gewonnen Informationen aufzubereiten, um am Ende Lösungen zu entwickeln die für Sie oder Ihr Unternehmen genau passend sind.</p>
+          </div>
+          <div class="col-md-4">
+            <img class="rounded img-responsive float-left" src="img/ich.jpg" alt="">
+          </div>
         </div>
       </div>
+    </div>
+    <div class="section" id="contactme">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4" id="contactme">
+            <img class="rounded img-responsive float-left" id="contactPhone" src="img/phone-499991_640.jpg" alt="">
+          </div>
+          <div class="col-md-8">
+            <h1>Kontakt</h1>
+            <p>
+              Christian Schulz
+              Bäckerstraße 46
+              14770 Brandenburg / Havel
+              Deutschland
 
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Kontakt</h1>
+              Telefon: 0172 514 7446
+              eMail: c.schulz@stats-up.me
+            </p>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
+  <footer class="container" id="footerSticky">
+    <p><a href="#">Impressum</a> <a href="#">Datenschutz</a> &copy; Company 2017</p>
+  </footer>
+</main>
 
-        <hr>
+<div id="fp-nav" class="right" style="margin-top: -43.5px">
+  <ul>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
+  </ul>
+</div>
 
-      </div> <!-- /container -->
-
-    </main>
-
-    <footer class="container">
-      <p>&copy; Company 2017</p>
-    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/typewriter.js">
-
-    </script>
+    <script type="text/javascript" src="js/typewriter.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+			});
+		});
+	</script>
   </body>
 </html>
